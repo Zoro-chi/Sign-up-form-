@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: "Black Ops One", cursive, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/alexander-jawfox-Mu0ExSKTOBs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  width: 100vw;
+  top: 15vh;
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: rgba(142, 142, 142, 0.2);
+  padding: 1rem;
+  color: whitesmoke;
+}
+.form-input {
+  margin-top: 25vh;
+  background-color: ghostwhite;
+  width: 45vw;
+  color: black;
+}
