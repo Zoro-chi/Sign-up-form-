@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Akatsuki Sign-up form</title>
+    <title>Gamer Nation</title>
 </head>
 <body>
     <section class="container">
@@ -14,11 +14,42 @@
                 <div class="absolute">
                     <h2>This is not a real service!</h2>
                 </div>
-                <form action="" method="post" class="form-input">
-                    <legend>Create your character</legend>
-                    <h2>Ready player 2</h2>
-
+                <form action="" method="" class="form-input">
+                    <h2>Ready player</h2>
+                    <legend class="legend">Character Details</legend>
+                    <div class="input-wrapper">
+                        <div id="name">
+                            <label for="name"><span>*</span>Player Name:</label> <br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div id="gamer_tag">
+                            <label for="gamer_tag"><span>*</span>Gamer Tag:</label> <br>
+                            <input type="text" id="gamer_tag" name="gamer_tag" required>
+                        </div>
+                        <div id="email">
+                            <label for="email"><span>*</span>Email:</label> <br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div id="level">
+                            <label for="level">Player level:</label> <br>
+                            <input type="number" id="level" min="0" max="60" name="level">
+                        </div>
+                        <div id="password">
+                            <label for="password"><span>*</span>Password:</label> <br>
+                            <input type="password" id="password" minlength="7" name="password" required>
+                        </div>
+                        <div id="confirm_password">
+                            <label for="password"><span>*</span>Confirm Password:</label> <br>
+                            <input type="password" id="password" minlength="7" name="password" required>
+                        </div>
+                        <div id="button">
+                            <button type="submit" class="submit">Deploy</button>
+                        </div>
+                    </div>
+                    <p>Already have an account?><a href="#"> Report</a></p>
                 </form>
+                
+                <!-- <button type="submit" class="submit">Deploy</button> -->
             </section>
         </div>
     </section>

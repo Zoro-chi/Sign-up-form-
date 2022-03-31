@@ -21,22 +21,94 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: -1;
   position: relative;
 }
 .absolute {
   position: absolute;
   width: 100vw;
-  top: 15vh;
+  top: 10vh;
   font-size: 1.7rem;
   text-align: center;
   background-color: rgba(142, 142, 142, 0.2);
   padding: 1rem;
-  color: whitesmoke;
+  color: khaki;
 }
 .form-input {
-  margin-top: 25vh;
-  background-color: ghostwhite;
-  width: 45vw;
-  color: black;
+  margin-top: 22.3vh;
+  background: linear-gradient(to bottom right, khaki, rgb(131 129 99));
+  width: 30vw;
+  color: darkolivegreen;
+  margin-left: 2rem;
+  padding: 3.5rem;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+  z-index: 1;
+}
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.legend {
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: firebrick;
+}
+.input-wrapper {
+  display: flex;
+  flex-flow: column;
+  gap: 1.2rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+.form-input > h2 {
+  color: firebrick;
+  margin-left: 2rem;
+}
+label {
+  text-shadow: 2px 2px black;
+  font-size: larger;
+}
+input {
+  height: 1.8rem;
+  width: 20rem;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  background: lightgray;
+  font-size: 1.4rem;
+  font-family: "Black Ops One";
+  text-align: center;
+  color: inherit;
+  font-style: normal;
+}
+button {
+  font-size: 2.5rem;
+  height: 2.9rem;
+  width: 18rem;
+  border-radius: 15px;
+  font-family: "Black Ops One";
+  background: firebrick;
+  border: none;
+}
+input:invalid {
+}
+input:active {
+  border: inherit;
+}
+p {
+  text-align: center;
+  margin-top: 1rem;
+}
+a {
+  color: firebrick;
+  text-decoration: none;
+}
+span {
+  color: maroon;
+}
+button.submit:hover {
+  cursor: crosshair;
+  color: firebrick;
+  background: black;
 }
